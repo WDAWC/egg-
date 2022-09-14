@@ -1,0 +1,9 @@
+use("egg_article")
+// db.getCollection('article').insert(  {
+//   "title": "文章标题",
+//   "img": "缩略图",
+//   "summary": "文章描述",
+//   "content": "文章内容",
+//   "creatTime": "创建时间",
+// });
+db.getCollection('artcile').drop()
